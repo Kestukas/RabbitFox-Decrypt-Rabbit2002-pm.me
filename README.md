@@ -1,6 +1,12 @@
 # RabbitFox-Decrypt-Rabbit2002-pm.me
 Decryptor for similar Ransomware as RabbitFox Rabbit2002@pm.me (idea)
 
+Identified by
+ransomnote_email: Rabbit2002@pm.me
+sample_extension: id <id>[Rabbit2002@pm.me].fox
+  
+Video tutorial : https://youtu.be/1hI7YDCPgt4
+
 This is my sample application how i decrypted most  of my files.
 
 It does not analyde encryptof itself , because i do not analyzed virus file.
@@ -42,14 +48,8 @@ program has scanner function to put this values by adding all files to one direc
 it will take something like :
 [BYTE01]
 30 = 43
-43 = 30
-33 = 40
-D7 = A4
-D6 = A5
-D5 = A6
-AD = DE
-17 = 64
-D3 = A0
+[BYTE02]
+5E = 3A
 
 that means that it found 2 files  "banexp.dat" and "banexp.dat id 1720406111[Rabbit2002@pm.me].fox" that has same size, and made a translation that byte 01 encripted is 30 and its decrypted byte is 43.
 
