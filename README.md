@@ -55,4 +55,7 @@ that means that it found 2 files  "banexp.dat" and "banexp.dat id 1720406111[Rab
 
 so if you have huge ammount of such files , you can make really nice dictionary that will decrypt all your custom files if you dont have dictionary for it.
 
-
+did noticed that hex bytes goes back and forth like 
+WRONG  --- GOOOD
+43 --- 33
+33 --- 43
